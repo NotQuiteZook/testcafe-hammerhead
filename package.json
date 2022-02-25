@@ -103,6 +103,7 @@
     "ts-defs"
   ],
   "scripts": {
+    "start": "node node_modules/gulp/bin/gulp http-playground",
     "test": "gulp travis",
     "publish-please-only": "publish-please",
     "publish-please": "del-cli package-lock.json node_modules && npm i && publish-please",
